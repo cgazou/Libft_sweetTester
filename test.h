@@ -6,7 +6,7 @@
 /*   By: cgazen <cgazen@student.42belgium.be>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 10:38:32 by cgazen            #+#    #+#             */
-/*   Updated: 2025/10/24 19:19:34 by cgazen           ###   ########.fr       */
+/*   Updated: 2025/10/24 20:13:35 by cgazen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,6 @@ int	test_isalpha(const char *name);
 int	test_isdigit(const char *name);
 int	test_isalnum(const char *name);
 int	test_isascii(const char *name);
+int	test_isprint(const char *name);
 
 #endif
