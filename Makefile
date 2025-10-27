@@ -6,7 +6,7 @@
 #    By: cgazen <cgazen@student.42belgium.be>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/24 19:52:48 by cgazen            #+#    #+#              #
-#    Updated: 2025/10/24 20:32:11 by cgazen           ###   ########.fr        #
+#    Updated: 2025/10/24 21:08:21 by cgazen           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ TOOLSDIR=tools
 TESTSDIR=tests
 
 TOOLFILES=main.c test_print.c test_utils.c
-TESTFILES=test_isalnum.c test_isalpha.c test_isascii.c test_isdigit.c test_isprint.c
+TESTFILES=test_isalnum.c test_isalpha.c test_isascii.c test_isdigit.c test_isprint.c test_atoi.c
 
 SRCS=$(addprefix $(TOOLSDIR)/, $(TOOLFILES)) $(addprefix $(TESTSDIR)/, $(TESTFILES))
 OBJS=$(SRCS:.c=.o)

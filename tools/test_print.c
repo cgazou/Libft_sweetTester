@@ -6,7 +6,7 @@
 /*   By: cgazen <cgazen@student.42belgium.be>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 11:34:52 by cgazen            #+#    #+#             */
-/*   Updated: 2025/10/24 19:23:48 by cgazen           ###   ########.fr       */
+/*   Updated: 2025/10/24 21:16:20 by cgazen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "test.h"
@@ -107,8 +107,13 @@ void	run_selected_tests(int	*select)
 		fail = fail + test_isprint("isprint");
 		tests++;
 	}
+	if (select[20])
+	{
+		printf("Testing atoi...\n");
+		fail = fail + test_atoi("atoi");
+		tests++;
+	}		
 	print_summary(tests - fail, tests);
-		
 	
 
 }
